@@ -1,0 +1,20 @@
+.map {
+    padding: 0.3rem 2rem 0rem;
+    line-height: 0;
+
+    @media (min-width: 769px) {
+        padding: 0 14.3rem;
+        padding-top: 5rem;
+    }
+}
+
+#google_map {
+    height: 200px;
+    margin: 0 calc(50% - 50vw);
+    width: 100vw;
+
+    @media (min-width: 769px) {
+        height: 400px;
+        margin-top: 3rem;
+    }
+}

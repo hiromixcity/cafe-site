@@ -1,0 +1,18 @@
+//
+// コンテナのスタイル
+//
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 112rem;
+    justify-content: space-between;
+    align-items: start;
+
+    @media (min-width: 769px) {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        padding-bottom: 5rem;
+    }
+}
