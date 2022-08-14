@@ -1,0 +1,55 @@
+.info {
+    width: 47%;
+    box-shadow: 0px 0px 17px -6px rgb(0 0 0 / 60%);
+    margin-bottom: 2rem;
+
+    @media (min-width: 769px) {
+        margin-right: 2rem;
+        width: 25%;
+    }
+}
+
+.info:nth-of-type(2n) {
+    @media screen and (max-width: 768px) {
+        margin-left: 2rem;
+    }
+}
+
+.info_naka {
+    @media (min-width: 769px) {
+        width: 30%;
+    }
+}
+
+.info_naka:nth-of-type(3n) {
+    @media (min-width: 769px) {
+        margin-right: 0rem;
+    }
+}
+
+.info_last {
+    @media (min-width: 769px) {
+        margin-right: 0rem;
+    }
+}
+
+.info_detail {
+    padding: 1.6rem;
+}
+
+p.information-text {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+time {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: $gray;
+
+}
+
+.info_img {
+    vertical-align: bottom;
+}

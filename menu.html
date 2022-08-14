@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Shop カフェサイト</title>
+  <meta name="description" content="Sample Shop カフェサイトの紹介サイト">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" href="./css/style.css">
+
+  <!-- FontAwesome -->
+  <script src="https://kit.fontawesome.com/4ca30fbc53.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+  <!-- ヘッダー -->
+  <header class="header">
+    <h1 class="logo">
+      <a href="index.html"><img src="./images/logo_sp.png" alt="カフェサイト"></a>
+    </h1>
+    <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu"></i></div>
+    <!-- SPメニュー -->
+    <nav class="sp-nav">
+      <ul class="sp-nav-list">
+        <li><a href="information.html">information</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="menu.html">menu</a></li>
+      </ul>
+      <dl class="shop_info">
+        <dt>営業時間</dt>
+        <dd>10:00〜22:00</dd>
+        <dt>電話番号</dt>
+        <dd>03-0000-0000</dd>
+      </dl>
+      <div class="shop_address">
+        <address class="address">100-0001<br>東京都渋谷区神宮前1-1000</address>
+        <ul class="menu-sns">
+          <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- PCメニュー -->
+    <nav class="pc-nav">
+      <ul class="pc-nav-list">
+        <li><a href="information.html">information</a></li>
+        <li><a href="about.html">about</a></li>
+        <li><a href="menu.html">menu</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!-- メイン -->
+  <main>
+    <!-- カバー -->
+    <section class="sub-cover-menu">
+      <h2 class="sub-cover-title about_cover">menu</h2>
+    </section>
+    <!-- MENU -->
+    <section class="menu">
+      <div class="container">
+        <div class="main">
+          <div class="slideshow slodeshow-pc">
+            <div id="slideshow-image" class="slideshow-image">
+              <img src="./images/drink_1.jpg" alt="コーヒー">
+            </div>
+
+            <ul id="thumbnail" class="thumbnail">
+              <li><img src="./images/drink_1.jpg" alt="コーヒー"></li>
+              <li><img src="./images/drink_2.jpg" alt="アイスコーヒー"></li>
+              <li><img src="./images/drink_3.jpg" alt="紅茶"></li>
+              <li><img src="./images/drink_4.jpg" alt="クリームソーダ"></li>
+            </ul>
+          </div>
+          <h2 class="menu_title">drink<span>ドリンク</span></h2>
+          <ul class="menu_list">
+            <li>コーヒー<span>300円</span></li>
+            <li>アイスコーヒー<span>300円</span></li>
+            <li>紅茶<span>400円</span></li>
+            <li>クリームソーダ<span>500円</span></li>
+          </ul>
+          <div class="slideshow slodeshow-pc">
+            <div id="slideshow-image02" class="slideshow-image">
+              <img src="./images/bread_1.jpg" alt="パン">
+            </div>
+
+            <ul id="thumbnail02" class="thumbnail">
+              <li><img src="./images/bread_1.jpg" alt="パン"></li>
+              <li><img src="./images/bread_2.jpg" alt="クロワッサン"></li>
+              <li><img src="./images/bread_3.jpg" alt="サンドウィッチ"></li>
+              <li><img src="./images/bread_4.jpg" alt="パンケーキ"></li>
+            </ul>
+          </div>
+          <h2 class="menu_title">bread<span>パン</span></h2>
+          <ul class="menu_list">
+            <li>パン<span>200円</span></li>
+            <li>クロワッサン<span>200円</span></li>
+            <li>サンドウィッチ<span>500円</span></li>
+            <li>パンケーキ<span>600円</span></li>
+          </ul>
+          <div class="slideshow slodeshow-pc">
+            <div id="slideshow-image03" class="slideshow-image">
+              <img src="./images/pasta_1.jpg" alt="ボロネーゼ">
+            </div>
+
+            <ul id="thumbnail03" class="thumbnail">
+              <li><img src="./images/pasta_1.jpg" alt="ボロネーゼ"></li>
+              <li><img src="./images/pasta_2.jpg" alt="ジェノベーゼパスタ"></li>
+              <li><img src="./images/pasta_3.jpg" alt="カルボナーラ"></li>
+              <li><img src="./images/pasta_4.jpg" alt="ボンゴレビアンコ"></li>
+            </ul>
+          </div>
+          <h2 class="menu_title">pasta<span>パスタ</span></h2>
+          <ul class="menu_list">
+            <li>ボロネーゼ<span>800円</span></li>
+            <li>ジェノベーゼパスタ<span>800円</span></li>
+            <li>カルボナーラ<span>1,000円</span></li>
+            <li>ボンゴレビアンコ<span>1,100円</span></li>
+          </ul>
+          <div class="slideshow slodeshow-pc">
+            <div id="slideshow-image04" class="slideshow-image">
+              <img src="./images/sweets_1.jpg" alt="ジェラート">
+            </div>
+
+            <ul id="thumbnail04" class="thumbnail">
+              <li><img src="./images/sweets_1.jpg" alt="ジェラート"></li>
+              <li><img src="./images/sweets_2.jpg" alt="ムース"></li>
+              <li><img src="./images/sweets_3.jpg" alt="カップケーキ"></li>
+              <li><img src="./images/sweets_4.jpg" alt="ワッフル"></li>
+            </ul>
+          </div>
+          <h2 class="menu_title">sweets<span>スウィーツ</span></h2>
+          <ul class="menu_list">
+            <li>ジェラート<span>400円</span></li>
+            <li>ムース<span>500円</span></li>
+            <li>カップケーキ<span>600円</span></li>
+            <li>ワッフル<span>700円</span></li>
+          </ul>
+        </div>        <!-- サイドメニュー -->
+                <div class="side_menu">
+                  <div class="categories">
+                      <h2 class="common_title">categories</h2>
+                      <ul>
+                          <li>information</li>
+                          <li>about</li>
+                          <li>menu</li>
+                      </ul>
+                  </div>
+                  　　<div class="shop_information">
+                      <h2 class="common_title">shop information</h2>
+                      <dl class="side_shop_info">
+                          <dt>営業時間</dt>
+                          <dd>10:00〜22:00</dd>
+                          <dt>電話番号</dt>
+                          <dd>03-0000-0000</dd>
+                      </dl>
+                      <address>100-0001<br>東京都渋谷区神宮前1-1000</address>
+                      <ul class="menu-sns common-sns side-sns">
+                          <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter"
+                                      aria-hidden="true"></i></a></li>
+                          <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"
+                                      aria-hidden="true"></i></a></li>
+                          <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"
+                                      aria-hidden="true"></i></a></li>
+                      </ul>
+                  </div>
+                  <!-- PCツイッター -->
+                  <div class="twitter-pc">
+                      <a class="twitter-timeline" data-width="256" data-height="500"
+                          href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
+                      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                  </div>
+              </div>
+          </div>
+      </section>
+    <!-- SHOP_INFO -->
+    <section class="shop_detail common shop_datail_naka">
+      <h2 class="common_title">shop information</h2>
+      <dl class="shop_info detail common_info">
+        <dt>営業時間</dt>
+        <dd>10:00〜22:00</dd>
+        <dt>電話番号</dt>
+        <dd>03-0000-0000</dd>
+      </dl>
+      <div class="shop_address common_shop_address">
+        <address class="address commmon-address">100-0001<br>東京都渋谷区神宮前1-1000</address>
+        <ul class="menu-sns common-sns">
+          <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- ツイッター -->
+    <div class="twitter">
+      <a class="twitter-timeline" data-width="320" data-height="500"
+        href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <small>© Sample Shop.</small>
+  </footer>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/slideshow.js"></script>
+
+</body>
+
+</html>

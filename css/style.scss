@@ -1,0 +1,20 @@
+@charset 'UTF-8'; /* 文字コードの指定 */
+
+// Google Fontsの読み込み
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+// Scssファイルの読み込み
+@import "base";
+@import "header";
+@import "cover";
+@import "section_title";
+@import "container";
+@import "information";
+@import "info";
+@import "about";
+@import "menu";
+@import "map";
+@import "shop_detail";
+@import "footer";
+@import "common";
+// 以降はパーシャルファイルを追加したら読み込み記述を追加する

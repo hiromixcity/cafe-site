@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Shop カフェサイト</title>
+    <meta name="description" content="Sample Shop カフェサイトの紹介サイト">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/4ca30fbc53.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <h1 class="logo">
+            <a href="index.html"><img src="./images/logo_sp.png" alt="カフェサイト"></a>
+        </h1>
+        <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu"></i></div>
+        <!-- SPメニュー -->
+        <nav class="sp-nav">
+            <ul class="sp-nav-list">
+                <li><a href="information.html">information</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="menu.html">menu</a></li>
+            </ul>
+            <dl class="shop_info">
+                <dt>営業時間</dt>
+                <dd>10:00〜22:00</dd>
+                <dt>電話番号</dt>
+                <dd>03-0000-0000</dd>
+            </dl>
+            <div class="shop_address">
+                <address class="address">100-0001<br>東京都渋谷区神宮前1-1000</address>
+                <ul class="menu-sns">
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- PCメニュー -->
+        <nav class="pc-nav">
+            <ul class="pc-nav-list">
+                <li><a href="information.html">information</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="menu.html">menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- メイン -->
+    <main>
+        <!-- カバー -->
+        <section class="sub-cover-about">
+            <h2 class="sub-cover-title about_cover">about</h2>
+        </section>
+        <!-- ABOUT -->
+        <section class="about">
+            <div class="container">
+                <div class="main">
+                    <div class="about_detail">
+                        <div class="shop shop_img">
+                            <img src="./images/about_1.jpg" alt="店外の紹介">
+                        </div>
+                        <p class="shop_text shop_text_pc">
+                            イギリスをイメージしたシックで落ち着いたカフェ。テラス席も完備し、昼も夜も過ごしやすい空間を提供します。無垢の木材が目印です。</p>
+                        <p class="pc_view">テーブルや椅子、コーヒーカップはイギリスから輸入しております。</p>
+                        <p class="pc_view">駅から徒歩10分以内、座席数は100名。貸し切りでパーティーも対応しております。</p>
+                        <p class="pc_view">ご来店おまちしております。</p>
+                    </div>
+                    <div class="about_detail">
+                        <div class="shop shop_img">
+                            <img src="./images/about_2.jpg" alt="店内の紹介">
+                        </div>
+                        <p class="shop_text shop_text_pc">店内はソファ席が20席、テーブル席が24席、外のウッドデッキにはテーブル席が2席あります。</p>
+                        <p class="pc_view">季節によって、店内のインテリアが変わります。クリスマスの時期やハロウィンの時期には店員も仮装して接客を行います。</p>
+                        <p class="pc_view">完全分煙化しているため、喫煙される方も安心してご利用いただけます。</p>
+                    </div>
+                    <div class="about_detail">
+                        <div class="shop shop_img">
+                            <img src="./images/about_3.jpg" alt="料理の紹介">
+                        </div>
+                        <p class="shop_text shop_text_pc">季節限定のスウィーツもありますので、詳しくはINFORMATIONをご覧ください。</p>
+                        <p class="pc_view">週間でオススメのスイーツメニューがあります。コーヒーとセットだとお得になりますので、ご来店の際にはぜひチェックしてください。</p>
+                        <p class="pc_view">貸し切りパーティーの際に誕生日ケーキなどもご用意できます。ご予約人数に合わせたプランをご提供いたします。ケーキのご予約は来店の3日前までにご連絡ください。
+                        </p>
+                    </div>
+                </div>
+                <!-- サイドメニュー -->
+                <div class="side_menu">
+                    <div class="categories">
+                        <h2 class="common_title">categories</h2>
+                        <ul>
+                            <li>information</li>
+                            <li>about</li>
+                            <li>menu</li>
+                        </ul>
+                    </div>
+                    　　<div class="shop_information">
+                        <h2 class="common_title">shop information</h2>
+                        <dl class="side_shop_info">
+                            <dt>営業時間</dt>
+                            <dd>10:00〜22:00</dd>
+                            <dt>電話番号</dt>
+                            <dd>03-0000-0000</dd>
+                        </dl>
+                        <address>100-0001<br>東京都渋谷区神宮前1-1000</address>
+                        <ul class="menu-sns common-sns side-sns">
+                            <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter"
+                                        aria-hidden="true"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"
+                                        aria-hidden="true"></i></a></li>
+                            <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"
+                                        aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <!-- PCツイッター -->
+                    <div class="twitter-pc">
+                        <a class="twitter-timeline" data-width="256" data-height="500"
+                            href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
+                        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SHOP_INFO -->
+        <section class="shop_detail common shop_datail_naka">
+            <h2 class="common_title">shop information</h2>
+            <dl class="shop_info detail common_info">
+                <dt>営業時間</dt>
+                <dd>10:00〜22:00</dd>
+                <dt>電話番号</dt>
+                <dd>03-0000-0000</dd>
+            </dl>
+            <div class="shop_address common_shop_address">
+                <address class="address commmon-address">100-0001<br>東京都渋谷区神宮前1-1000</address>
+                <ul class="menu-sns common-sns">
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- ツイッター -->
+        <div class="twitter">
+            <a class="twitter-timeline" data-width="320" data-height="500"
+                href="https://twitter.com/TwitterJP?ref_src=twsrc%5Etfw">Tweets by TwitterJP</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <small>© Sample Shop.</small>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/slideshow.js"></script>
+
+</body>
+
+</html>

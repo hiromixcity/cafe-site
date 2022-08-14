@@ -1,0 +1,155 @@
+.menu {
+  padding: 0.3rem 2rem 3rem;
+
+  @media (min-width: 769px) {
+    padding: 0 14.3rem;
+    padding-top: 5rem;
+  }
+}
+
+.menu_info {
+  @media (min-width: 769px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.slideshow-image {
+  margin: 0 calc(50% - 50vw);
+  width: 100vw;
+
+  @media (min-width: 769px) {
+    margin: initial;
+    max-width: 100%;
+  }
+}
+
+.slideshow {
+  max-width: 50rem;
+  margin: auto;
+
+  @media (min-width: 769px) {
+    max-width: 50%;
+  }
+}
+
+.slodeshow-pc {
+  @media (min-width: 769px) {
+    max-width: 100%;
+  }
+}
+
+.menu_text {
+  @media (min-width: 769px) {
+    width: 50%;
+    padding-right: 2rem;
+  }
+}
+
+.thumbnail {
+  display: flex;
+  padding: 0 2rem;
+  list-style: none;
+
+  @media (min-width: 769px) {
+    padding: 0;
+  }
+}
+
+.thumbnail li {
+  width: calc(100% / 4);
+  cursor: pointer;
+  margin-right: 1.6rem;
+}
+
+.thumbnail li:last-child {
+  margin-right: 0;
+}
+
+.menu_title {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
+  border-bottom: solid;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(235, 212, 122);
+  width: 100%;
+  margin: 0;
+}
+
+.menu_title span {
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  font-weight: normal;
+  color: $gold;
+}
+
+.menu_table {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.menu_table tr {
+  @media (min-width: 769px) {
+    width: 50%;
+    float: left;
+  }
+}
+
+.menu_table th {
+  text-align: left;
+  font-weight: normal;
+}
+
+.menu_table td {
+  text-align: right;
+}
+
+ul.menu_list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 5rem;
+  width: 100%;
+  margin-top: 2rem;
+
+  @media (min-width: 769px) {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 12rem;
+    margin-top: 0;
+  }
+}
+
+ul.menu_list li {
+  position: relative;
+
+  @media (min-width: 769px) {
+    width: 45%;
+    border-bottom: thin solid $black;
+    padding: 5px 0;
+  }
+}
+
+ul.menu_list li span {
+  position: absolute;
+  right: 0;
+}
+
+ul.menu_list li:last-child,
+ul.menu_list li:nth-last-child(2) {
+  @media (min-width: 769px) {
+    border: none;
+  }
+}
+
+ul.menu_list li:last-child {
+  margin-bottom: 0rem;
+
+  @media (min-width: 769px) {
+    margin-bottom: 0rem;
+  }
+}

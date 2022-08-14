@@ -1,0 +1,26 @@
+.information {
+    padding: 0.3rem 2rem 3rem;
+
+    @media (min-width: 769px) {
+        padding: 0 14.3rem;
+        padding-top: 4rem;
+    }
+}
+
+.information_naka {
+    padding: 0.3rem 2rem 3rem;
+
+    @media (min-width: 769px) {
+        padding: 0 14.3rem;
+    }
+}
+
+.section-heading {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+
+    @media (min-width: 769px) {
+        justify-content: start;
+    }
+}

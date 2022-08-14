@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Shop カフェサイト</title>
+    <meta name="description" content="Sample Shop カフェサイトの紹介サイト">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="./css/style.css">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/4ca30fbc53.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+
+    <!-- ヘッダー -->
+    <header class="header">
+        <h1 class="logo">
+            <a href="index.html"><img src="./images/logo_sp.png" alt="カフェサイト"></a>
+        </h1>
+        <div id="nav-button" class="nav-button"><i class="fas fa-bars" aria-label="menu"></i></div>
+        <!-- SPメニュー -->
+        <nav class="sp-nav">
+            <ul class="sp-nav-list">
+                <li><a href="information.html">information</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="menu.html">menu</a></li>
+            </ul>
+            <dl class="shop_info">
+                <dt>営業時間</dt>
+                <dd>10:00〜22:00</dd>
+                <dt>電話番号</dt>
+                <dd>03-0000-0000</dd>
+            </dl>
+            <div class="shop_address">
+                <address class="address">100-0001<br>東京都渋谷区神宮前1-1000</address>
+                <ul class="menu-sns">
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- PCメニュー -->
+        <nav class="pc-nav">
+            <ul class="pc-nav-list">
+                <li><a href="information.html">information</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="menu.html">menu</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- メイン -->
+    <main>
+        <!-- SPカバー -->
+        <div class="cover">
+            <div class="carousel">
+                <div><img src="./images/sp_slide_1.jpg" alt="Products1"></div>
+                <div><img src="./images/sp_slide_2.jpg" alt="Products2"></div>
+                <div><img src="./images/sp_slide_3.jpg" alt="Products3"></div>
+            </div>
+            <div class="catch">
+                Have a wonderful time<br>
+                <span class="subcatch">Organic Cafe &amp; Restaurant</span>
+            </div>
+        </div>
+        <!-- PCカバー -->
+        <div class="pc_cover">
+            <div class="carousel">
+                <div><img src="./images/pc_slide_1.jpg" alt="Products1"></div>
+                <div><img src="./images/pc_slide_2.jpg" alt="Products2"></div>
+                <div><img src="./images/pc_slide_3.jpg" alt="Products3"></div>
+            </div>
+            <div class="pc_catch">
+                Have a wonderful time<br>
+                <span class="pc_subcatch">Organic Cafe &amp; Restaurant</span>
+            </div>
+        </div>
+        <!-- INFORMATION -->
+        <section class="information">
+            <div class="section-heading">
+                <h2 class="section-title">information</h2><span class="section-subtitle">view all<i
+                        class="fas fa-angle-right arrow"></i></span>
+            </div>
+            <div class="container container_top">
+                <div class="info">
+                    <img src="./images/info_1.jpg" class="info_img" alt="サンプルショップの系列店がOPEN">
+                    <div class="info_detail">
+                        <time datetime="2020-01-01">2020.01.01</time>
+                        <p class="information-text">サンプルショップの系列店がOPEN</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <img src="./images/info_2.jpg" class="info_img" alt="サンプルショップの2号店がOPEN！">
+                    <div class="info_detail">
+                        <time datetime="2019-12-01">2019.12.01</time>
+                        <p class="information-text">サンプルショップの2号店がOPEN！</p>
+                    </div>
+                </div>
+                <div class="info">
+                    <img src="./images/info_3.jpg" class="info_img" alt="ポイントカードアプリをリリース">
+                    <div class="info_detail">
+                        <time datetime="2019-11-01">2019.11.01</time>
+                        <p class="information-text">ポイントカードアプリをリリース</p>
+                    </div>
+                </div>
+                <div class="info info_last">
+                    <img src="./images/info_4.jpg" class="info_img" alt="Cafe9月号にサンプルショップ掲載">
+                    <div class="info_detail">
+                        <time datetime="2019-10-01">2019.10.01</time>
+                        <p class="information-text">Cafe9月号にサンプルショップ掲載</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ABOUT -->
+        <section class="about">
+            <div class="section-heading">
+                <h2 class="section-title">about</h2><span class="section-subtitle">view all<i
+                        class="fas fa-angle-right arrow"></i></span>
+            </div>
+            <div class="shop_about">
+                <div class="shop">
+                    <img src="./images/about_1.jpg" alt="店外の紹介">
+                </div>
+                <div class="about_text">
+                    <p>イギリスをイメージしたシックで落ち着いたカフェ。テラス席も完備し、昼も夜も過ごしやすい空間を提供します。無垢の木材が目印です。</p>
+                    <p class="pc_view">テーブルや椅子、コーヒーカップはイギリスから輸入しております。</p>
+                    <p class="pc_view">駅から徒歩10分以内、座席数は100名。貸し切りでパーティーも対応しております。</p>
+                    <p class="pc_view">ご来店おまちしております。</p>
+                </div>
+            </div>
+        </section>
+        <!-- MENU -->
+        <section class="menu">
+            <div class="section-heading">
+                <h2 class="section-title">menu</h2><span class="section-subtitle">view all<i
+                        class="fas fa-angle-right arrow"></i></span>
+            </div>
+            <div class="menu_info">
+                <div class="slideshow">
+                    <div id="slideshow-image" class="slideshow-image">
+                        <img src="./images/drink_1.jpg" alt="コーヒー">
+                    </div>
+                    <ul id="thumbnail" class="thumbnail">
+                        <li><img src="./images/drink_1.jpg" alt="コーヒー"></li>
+                        <li><img src="./images/drink_2.jpg" alt="アイスコーヒー"></li>
+                        <li><img src="./images/bread_3.jpg" alt="サンドウィッチ"></li>
+                        <li><img src="./images/sweets_4.jpg" alt="ワッフル"></li>
+                    </ul>
+                </div>
+                <div class="menu_text">
+                    <p>サンプルショップでは厳選されたコーヒー豆をオーストラリアから輸入。フードは全て有機栽培された材料を契約農家と契約し提供しております。</p>
+                    <p class="pc_view">豆本来の香り・味わいを引き出すため、バリスタが提供いたします。</p>
+                    <p class="pc_view">季節限定のオリジナルスウィーツから、ディナー時も満足いただけるフードメニューをご用意しております。</p>
+                    <p class="pc_view">貸し切りパーティーの際は、提携レストランからの特別メニューもご用意できますのでお気軽にご相談ください。</p>
+                </div>
+            </div>
+        </section>
+        <!-- SHOP -->
+        <section class="map">
+            <div class="section-heading">
+                <h2 class="section-title">shop</h2>
+            </div>
+            <div id="google_map"></div>
+            <script src="//maps.googleapis.com/maps/api/js?key=AIzaSyAboQda_R2JzkLLkUSJMJapWKpADyBdODY"></script>
+            <script>
+                function googleMap() {
+                    var latlng = new google.maps.LatLng(35.6804722, 139.7676504); /* 座標 */
+                    var myOptions = {
+                        zoom: 16, /* 拡大比率 */
+                        center: latlng,
+                        mapTypeControlOptions: { mapTypeIds: ['style', google.maps.MapTypeId.ROADMAP] }
+                    };
+                    var map = new google.maps.Map(document.getElementById('google_map'), myOptions);
+                    var markerOptions = {
+                        position: latlng,
+                        map: map,
+                        title: '株式会社サンプル', /* タイトル */
+                        animation: google.maps.Animation.DROP /* アニメーション */
+                    };
+                    var marker = new google.maps.Marker(markerOptions);
+                    /* 取得スタイルの貼り付け */
+                    var styleOptions = [
+                        {
+                            "stylers": [
+                                { "hue": '#c4b564' }
+                            ]
+                        }
+                    ];
+                    var styledMapOptions = { name: '株式会社サンプル' } /* 地図右上のタイトル */
+                    var sampleType = new google.maps.StyledMapType(styleOptions, styledMapOptions);
+                    map.mapTypes.set('style', sampleType);
+                    map.setMapTypeId('style');
+                };
+                google.maps.event.addDomListener(window, 'load', function () {
+                    googleMap();
+                });
+            </script>
+
+        </section>
+        <!-- SHOP_INFO -->
+        <div class="shop_detail">
+            <a href="index.html" class="logo_shop"><img src="./images/logo_white.png" alt="サンプルショップ"></a>
+            <dl class="shop_info detail">
+                <dt>営業時間</dt>
+                <dd>10:00〜22:00</dd>
+                <dt>電話番号</dt>
+                <dd>03-0000-0000</dd>
+            </dl>
+            <div class="shop_address">
+                <address class="address">100-0001<br class="pc_hid">東京都渋谷区神宮前1-1000
+                </address>
+                <ul class="menu-sns menu-sns-pc">
+                    <li><a href="#" target="_blank"><i class="fab fa-twitter" aria-label="twitter"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-facebook-f" aria-label="facebook"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="#" target="_blank"><i class="fab fa-instagram" aria-label="Instagram"
+                                aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+
+    </main>
+
+    <!-- フッター -->
+    <footer class="footer">
+        <small>© Sample Shop.</small>
+    </footer>
+
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/hamburger.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="js/slideshow.js"></script>
+
+</body>
+
+</html>

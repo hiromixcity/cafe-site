@@ -1,0 +1,58 @@
+.about {
+	padding: 0.3rem 2rem 5rem;
+
+	@media (min-width: 769px) {
+		padding: 0 14.3rem;
+	}
+}
+
+.shop {
+	margin: 0 calc(50% - 50vw);
+	width: 100vw;
+
+	@media (min-width: 769px) {
+		width: 50%;
+		margin: initial;
+	}
+}
+
+.shop_about {
+	@media (min-width: 769px) {
+		margin: auto;
+		display: flex;
+	}
+}
+
+.about_text {
+	@media (min-width: 769px) {
+		width: 50%;
+		padding-left: 2rem;
+	}
+}
+
+.shop_text {
+	margin-bottom: 10rem;
+}
+
+.shop_text:last-child {
+	margin-bottom: 0;
+}
+
+.shop_img {
+	@media (min-width: 769px) {
+		width: 100%;
+	}
+
+}
+
+.shop_text_pc {
+	@media (min-width: 769px) {
+		margin-bottom: 0rem;
+	}
+}
+
+.about_detail {
+	@media (min-width: 769px) {
+		margin-bottom: 11.9rem;
+	}
+}
